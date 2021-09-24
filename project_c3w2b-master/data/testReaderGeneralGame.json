@@ -1,0 +1,60 @@
+{ "jet1 projectiles": [{
+  "x": 20,
+  "y": 30,
+  "dx": 1,
+  "dy": 1,
+  "speed": 2,
+  "points": 5
+}, {
+  "x": 50,
+  "y": 50,
+  "dx": 1,
+  "dy": 1,
+  "speed": 5,
+  "points": 8
+}],
+  "jet2 projectiles": [{
+    "x": 0,
+    "y": 0,
+    "dx": 1,
+    "dy": 1,
+    "speed": 4,
+    "points": 6
+  }],
+  "asteroids": [{
+    "x": 10,
+    "y": 10,
+    "dx": -1,
+    "dy": 1
+  }],
+  "jet2": {
+    "guns": [{
+      "gun number of points when hit": 6,
+      "gun speed": 4
+    }],
+    "current gun index": 1,
+    "dx": 0,
+    "dy": 0,
+    "x": 100,
+    "y": 150,
+    "points": 3
+  },
+  "jet1": {
+    "guns": [
+      {
+        "gun number of points when hit": 5,
+        "gun speed": 3
+      },
+      {
+        "gun number of points when hit": 8,
+        "gun speed": 5
+      }
+    ],
+    "current gun index": 2,
+    "dx": 0,
+    "dy": 0,
+    "x": 200,
+    "y": 150,
+    "points": 5
+  }
+}

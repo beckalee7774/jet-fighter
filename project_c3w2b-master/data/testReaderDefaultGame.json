@@ -1,0 +1,23 @@
+{
+    "jet1 projectiles": [],
+    "jet2 projectiles": [],
+    "asteroids": [],
+    "jet2": {
+        "guns": [],
+        "current gun index": 0,
+        "dx": 0,
+        "dy": 0,
+        "x": 100,
+        "y": 150,
+        "points": 0
+    },
+    "jet1": {
+        "guns": [],
+        "current gun index": 0,
+        "dx": 0,
+        "dy": 0,
+        "x": 200,
+        "y": 150,
+        "points": 0
+    }
+}
